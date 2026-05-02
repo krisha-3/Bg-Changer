@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function App() {
-  const [color, setColor] = useState("olive");
+  const [color, setColor] = useState("pink");
 
   return (
     <div
@@ -18,7 +18,7 @@ function App() {
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center gap-3 shadow-xl bg-olive-700 px-2 py-2 rounded-xl m-0.5">
           <button
-            onClick={() => setColor("olive")}
+            onClick={() => setColor("pink")}
             className="outline-none px-6 py-2 rounded-xl shadow-sm text-olive-300 duration-200 hover:bg-olive-500 hover:text-olive-700 hover:shadow-lg bg-olive-600 border-b-4 active:border-b-0 active:translate-y-1"
           >
             Reset
