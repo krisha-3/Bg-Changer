@@ -16,7 +16,7 @@ function App() {
       </h1>
 
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
-        <div className="flex flex-wrap justify-center gap-3 shadow-xl bg-olive-700 px-2 py-2 rounded-xl m-0.5">
+        <div className="flex flex-wrap justify-center gap-3 shadow-xl bg-pink-700 px-2 py-2 rounded-xl m-0.5">
           <button
             onClick={() => setColor("pink")}
             className="outline-none px-6 py-2 rounded-xl shadow-sm text-pink-300 duration-200 hover:bg-pink-500 hover:text-pink-700 hover:shadow-lg bg-pink-600 border-b-4 active:border-b-0 active:translate-y-1"
